@@ -30,3 +30,5 @@ function solution(numer1, denom1, numer2, denom2) {
   answer[1] = b / gcd(a, b);
   return answer;
 }
+console.log(solution(1, 2, 3, 4));
+console.log(solution(9, 2, 1, 3));
